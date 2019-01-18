@@ -17,10 +17,6 @@ They try to find the most robust to ASR error sentence embeddings. The most **ro
 
 ---
 
-https://arxiv.org/pdf/1802.08395.pdf
-
----
-
 
 ### [(2018) Training and Prediction Data Discrepancies: Challenges of Text Classification with Noisy, Historical Data](https://arxiv.org/pdf/1809.04019.pdf)
 
@@ -47,3 +43,8 @@ Authors propose an ASR post-processing system to improve ASR output. They model 
 ### [(2018) Hybrid Attention based Multimodal Network for Spoken Language Classification](http://www.aclweb.org/anthology/C18-1201)
 
 
+---
+
+https://arxiv.org/pdf/1802.08395.pdf
+
+---
