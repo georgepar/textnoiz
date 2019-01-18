@@ -40,6 +40,12 @@ Authors propose an ASR post-processing system to improve ASR output. They model 
 
 --- 
 
+### [(2018) ROBUST SPOKEN LANGUAGE UNDERSTANDING WITH UNSUPERVISED ASR-ERROR ADAPTATION](https://speechlab.sjtu.edu.cn/papers/sz128-zhu-icassp18.pdf)
+
+
+
+---
+
 ### [(2018) Hybrid Attention based Multimodal Network for Spoken Language Classification](http://www.aclweb.org/anthology/C18-1201)
 
 
