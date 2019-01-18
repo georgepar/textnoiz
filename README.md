@@ -18,3 +18,19 @@ They try to find the most robust to ASR error sentence embeddings. The most **ro
 ---
 
 https://arxiv.org/pdf/1802.08395.pdf
+
+---
+
+
+### [(2018) Training and Prediction Data Discrepancies: Challenges of Text Classification with Noisy, Historical Data](https://arxiv.org/pdf/1809.04019.pdf)
+
+#### Notes
+
+More experimental / mini-survey paper. Authors investigate the effect of different types of noise in prediction accuracy for 3 datasets. BOW SVM, NBOW SVM and CNN classifiers are used. Results are encouraging, as introduced noise does not significantly affect classification accuracy. Related work is informing as it supports the robustness to noise with previous work. 
+
+Caveats:
+
+- Sample size in tokens is a bit large (82-221 tokens)  
+- No sequential classifier explored (LSTM). Does noise lead to error accumulation?  
+- Only synthetic noise was explored. What happens when errors are accumulated in ASR output LM?  
+
