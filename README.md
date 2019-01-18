@@ -45,6 +45,10 @@ Authors propose an ASR post-processing system to improve ASR output. They model 
 
 ---
 
-https://arxiv.org/pdf/1802.08395.pdf
+### [(2017) ASR error management for improving spoken language understanding](https://arxiv.org/pdf/1705.09515.pdf)
+
+---
+
+### [(2018) TOWARDS END-TO-END SPOKEN LANGUAGE UNDERSTANDING](https://arxiv.org/pdf/1802.08395.pdf)
 
 ---
