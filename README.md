@@ -6,8 +6,11 @@ Brief lit review on handling noisy text input
 
 A few relevant papers are presented below:
 
-https://arxiv.org/pdf/1811.07021.pdf "INVESTIGATING THE EFFECTS OF WORD SUBSTITUTION ERRORS ON SENTENCE
-EMBEDDINGS" : they propose a way of *simulating* realistic ASR transcription errors and evaluate the resultant embeddings on the semantic textual similarity task. 
+https://arxiv.org/pdf/1811.07021.pdf:
+
+"INVESTIGATING THE EFFECTS OF WORD SUBSTITUTION ERRORS ON SENTENCE EMBEDDINGS" 
+
+In this paper, they propose a way of *simulating* realistic ASR transcription errors and evaluate the resultant embeddings on the semantic textual similarity task. 
 They observe that the nature of word subst. error in ASR depends:
     1) on the *phonemic* distance between true word and substituted word.
     2) on the *semantic* distance between true word and substituted word.
