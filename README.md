@@ -42,6 +42,9 @@ Authors propose an ASR post-processing system to improve ASR output. They model 
 
 ### [(2018) ROBUST SPOKEN LANGUAGE UNDERSTANDING WITH UNSUPERVISED ASR-ERROR ADAPTATION](https://speechlab.sjtu.edu.cn/papers/sz128-zhu-icassp18.pdf)
 
+#### Notes
+
+Authors propose an unsupervised model for domain adaptation on ASR errors. Model is based on Bidirectional Language modeling and improves upon (un-adapted) baseline and seq2seq based adaptation.
 
 
 ---
