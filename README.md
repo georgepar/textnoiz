@@ -6,7 +6,7 @@ Brief lit review on handling noisy text input
 
 A few relevant papers are presented below:
 
-## [INVESTIGATING THE EFFECTS OF WORD SUBSTITUTION ERRORS ON SENTENCE EMBEDDINGS](https://arxiv.org/pdf/1811.07021.pdf)
+## [(2018) INVESTIGATING THE EFFECTS OF WORD SUBSTITUTION ERRORS ON SENTENCE EMBEDDINGS](https://arxiv.org/pdf/1811.07021.pdf)
 
 ### Notes
 
