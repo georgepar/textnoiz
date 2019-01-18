@@ -42,11 +42,11 @@ Authors propose an ASR post-processing system to improve ASR output. They model 
 
 ### [(2018) Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf)
 
-ELMo embeddings are proposed to encoder raw ASR data:
+ELMo embeddings are proposed to encode raw ASR data:
 
--They apply ELMo embeddings for unsupervised knowledge transfer from raw ASR text and show SLU accuracy gains.
+-ELMo embeddings for unsupervised knowledge transfer from raw ASR text--> SLU accuracy gains.
 
--They propose ELMo-Light (ELMoL), a **light-weight ELMo alternative** that is well-suited for commercial settings:
+-ELMo-Light (ELMoL), a **light-weight ELMo alternative** that is well-suited for commercial settings:
 
     to do that, they train an LM network consisting of character level CNNs and a single bi-LSTM layer on unlabeled
     ASR text to compute contextual word representation. Contrary to ELMo, they do not freeze the lower bi-LSTM layer. 
