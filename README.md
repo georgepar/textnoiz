@@ -34,6 +34,16 @@ Caveats:
 - No sequential classifier explored (LSTM). Does noise lead to error accumulation?  
 - Only synthetic noise was explored. What happens when errors are accumulated in ASR output LM?  
 
+---
+
+### [(2018) Learning from Past Mistakes: Improving Automatic Speech Recognition Output via Noisy-Clean Phrase Context Modeling](https://arxiv.org/pdf/1802.02607.pdf)
+
+#### Notes
+
+Authors propose an ASR post-processing system to improve ASR output. They model ASR as a noisy channel and recover from mistakes using a probabilistic model based on context of past errors. Paper is well-written as they clearly state their hypotheses and provide a decent experimental section. 
+
+--- 
+
 ### [(2018) Hybrid Attention based Multimodal Network for Spoken Language Classification](http://www.aclweb.org/anthology/C18-1201)
 
 
