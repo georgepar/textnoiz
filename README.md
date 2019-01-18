@@ -34,3 +34,6 @@ Caveats:
 - No sequential classifier explored (LSTM). Does noise lead to error accumulation?  
 - Only synthetic noise was explored. What happens when errors are accumulated in ASR output LM?  
 
+### [(2018) Hybrid Attention based Multimodal Network for Spoken Language Classification](http://www.aclweb.org/anthology/C18-1201)
+
+
