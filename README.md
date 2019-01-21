@@ -45,16 +45,14 @@ Authors propose an ASR post-processing system to improve ASR output. They model 
 #### Notes
 
 ELMo embeddings are proposed to encode raw ASR data:
+- ELMo embeddings for unsupervised knowledge transfer from raw ASR text--> SLU accuracy gains.
+- ELMo-Light (ELMoL), a **light-weight ELMo alternative** that is well-suited for commercial settings.
 
--ELMo embeddings for unsupervised knowledge transfer from raw ASR text--> SLU accuracy gains.
+(they train an LM network consisting of character level CNNs and a single bi-LSTM layer on unlabeled
+ASR text to compute contextual word representation. Contrary to ELMo, they do not freeze the lower bi-LSTM layer. 
+To avoid catastrophic forgetting (forgetting prior knowledge), they use gradual unfreezing, discriminative fine-tuning       and slanted triangular learning rates, inspired by ULMFiT.)
 
--ELMo-Light (ELMoL), a **light-weight ELMo alternative** that is well-suited for commercial settings:
-
-    to do that, they train an LM network consisting of character level CNNs and a single bi-LSTM layer on unlabeled
-    ASR text to compute contextual word representation. Contrary to ELMo, they do not freeze the lower bi-LSTM layer. 
-    To avoid catastrophic forgetting (forgetting prior knowledge), they use gradual unfreezing, discriminative fine-tuning       and slanted triangular learning rates, inspired by ULMFiT.
-
--They combine unsupervised and supervised transfer learning --> **additive effect** of the two techniques.
+- They combine unsupervised and supervised transfer learning --> **additive effect** of the two techniques.
 
 --- 
 
