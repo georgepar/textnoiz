@@ -1,5 +1,5 @@
 # textnoiz
-Brief lit review on handling noisy text input
+Brief literature review on handling noisy text input from ASR.
 
 
 **Bibliography**
