@@ -84,4 +84,11 @@ The author proposes using ASR confidence measures as additional input features t
 At each timestep the word embedding of the current word is concatenated with the ASR confidence measures and other semantically relevant features such as word embeddings of its neighbors, the length of the current word, part of speech (POS) tags, syntactic dependency labels.
 They use two ASR confidence measures: the ASR word posterior probability and the MS-MLP (Multi-Stream Multi-Layer Perceptron) confidence measure. The MS-MLP is a network trained to compute scores for Correct and Error labels of ASR generated hypotheses. 
 
+
+### [(2018) Spoken SQuAD: A Study of Mitigating the Impact of Speech Recognition Errors on Listening Comprehension](https://arxiv.org/pdf/1804.00320.pdf)
+
+#### Notes
+
+The authors of this paper use phoneme sequences for words motivated by the observation that even when ASR system predicts a wrong word, subword units may be correct. They propose the Phoneme-CNN, which is similar to a character level CNN, but applies convolutional filters to the phoneme embeddings to extract a word-level representation.
+
 ---
