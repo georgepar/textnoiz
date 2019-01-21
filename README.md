@@ -42,6 +42,8 @@ Authors propose an ASR post-processing system to improve ASR output. They model 
 
 ### [(2018) Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf)
 
+#### Notes
+
 ELMo embeddings are proposed to encode raw ASR data:
 
 -ELMo embeddings for unsupervised knowledge transfer from raw ASR text--> SLU accuracy gains.
@@ -54,6 +56,7 @@ ELMo embeddings are proposed to encode raw ASR data:
 
 -They combine unsupervised and supervised transfer learning --> **additive effect** of the two techniques.
 
+--- 
 
 ### [(2018) ROBUST SPOKEN LANGUAGE UNDERSTANDING WITH UNSUPERVISED ASR-ERROR ADAPTATION](https://speechlab.sjtu.edu.cn/papers/sz128-zhu-icassp18.pdf)
 
