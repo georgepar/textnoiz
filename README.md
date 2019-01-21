@@ -67,13 +67,17 @@ Authors propose an unsupervised model for domain adaptation on ASR errors. Model
 
 ### [(2018) Hybrid Attention based Multimodal Network for Spoken Language Classification](http://www.aclweb.org/anthology/C18-1201)
 
+The authors demonstrate the benefits of including textual information to improe performance on spoken language classification tasks.
+They propose a multimodal network, that takes as input the audio signal and text from utterance-level speech data and applies both feature-level and modality-level attention an their representations.
+The inputs are encoded seperately using RNNs with attention and then weighted with modality specific scores.
+
 
 ---
 
 ### [(2017) ASR error management for improving spoken language understanding](https://arxiv.org/pdf/1705.09515.pdf)
 
----
-
-### [(2018) TOWARDS END-TO-END SPOKEN LANGUAGE UNDERSTANDING](https://arxiv.org/pdf/1802.08395.pdf)
+The author proposes using ASR confidence measures as additional input features to the sequence encoder.
+At each timestep the word embedding of the current word is concatenated with the ASR confidence measures and other semantically relevant features such as word embeddings of its neighbors, the length of the current word, part of speech (POS) tags, syntactic dependency labels.
+They use two ASR confidence measures: the ASR word posterior probability and the MS-MLP (Multi-Stream Multi-Layer Perceptron) confidence measure. The MS-MLP is a network trained to compute scores for Correct and Error labels of ASR generated hypotheses. 
 
 ---
