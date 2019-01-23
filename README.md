@@ -71,7 +71,7 @@ Authors propose an unsupervised model for domain adaptation on ASR errors. Model
 
 The authors demonstrate the benefits of including textual information to improve performance on spoken language classification tasks.
 They propose a multimodal network, that takes as input the audio signal and text from utterance-level speech data and applies both feature-level and modality-level attention an their representations.
-The inputs are encoded seperately using RNNs with attention and then weighted with modality specific scores.
+The inputs are encoded seperately using RNNs with self-attention and then weighted with modality specific scores.
 
 
 ---
